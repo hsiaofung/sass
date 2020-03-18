@@ -1,0 +1,48 @@
+$font-size: 20px;
+
+.logo__name {
+  position: fixed;
+  top: 200px;
+  left: 135px;
+  color: #000;
+  font-size: 24px;
+}
+.menu__option {
+  border-bottom: 1px dashed black;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  padding-left: 40px;
+  font-size: 20px;
+  color: #333d51;
+  &--active {
+    background-color: #f2f2f2;
+  }
+}
+
+@mixin paddings($dis, $num) {
+  .padding-#{$dis}-#{$num} {
+    padding-#{$dis}: $num + px;
+  }
+}
+@mixin margins($dis, $num) {
+  .margin-#{$dis}-#{$num} {
+    margin-#{$dis}: $num + px;
+  }
+}
+@mixin float($dis, $num) {
+  .float-#{$dis}-#{$num} {
+    float: $dis;
+    padding-#{$dis}: $num + px;
+  }
+}
+
+@include margins(top, 39);
+@include margins(left, 65);
+@include margins(left, 161);
+@include margins(bottom, 94);
+@include float(right, 28);
+
+.margin-top-10 {
+  margin-top: 10px;
+}

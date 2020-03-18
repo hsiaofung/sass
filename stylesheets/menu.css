@@ -1,0 +1,45 @@
+.logo__name {
+  position: fixed;
+  top: 200px;
+  left: 135px;
+  color: #000;
+  font-size: 24px;
+}
+
+.menu__option {
+  border-bottom: 1px dashed black;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  padding-left: 40px;
+  font-size: 20px;
+  color: #333d51;
+}
+.menu__option--active {
+  background-color: #f2f2f2;
+}
+
+.margin-top-39 {
+  margin-top: 39px;
+}
+
+.margin-left-65 {
+  margin-left: 65px;
+}
+
+.margin-left-161 {
+  margin-left: 161px;
+}
+
+.margin-bottom-94 {
+  margin-bottom: 94px;
+}
+
+.float-right-28 {
+  float: right;
+  padding-right: 28px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
