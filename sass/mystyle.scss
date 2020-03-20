@@ -1,5 +1,11 @@
+@import "mixin"; //global variable & mixin
 @import "compass/reset";
 @import "compass/css3";
+@import "extend"; //@extend style
+@import "layout";
+@import "index"; //home page css
+@import "page"; //page css
+@import "xxx"; //component CSS
 
 @mixin bg($name, $bg) {
   background: url("../images/#{$name}.#{bg}");
