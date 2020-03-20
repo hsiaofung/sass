@@ -1,4 +1,5 @@
 @import "compass/reset";
+@import "compass/css3";
 
 @mixin bg($name, $bg) {
   background: url("../images/#{$name}.#{bg}");
@@ -14,4 +15,10 @@
 .header h1 a {
   @include bg("logo", "png");
   @include text-hide;
+}
+
+.header h2 a {
+  @include border-radius("50px");
+  @include opacity(0.2);
+  @include box-shadow("3px 3px 5px #000");
 }

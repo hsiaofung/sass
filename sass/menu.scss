@@ -1,22 +1,41 @@
 $font-size: 20px;
-
-.logo__name {
-  position: fixed;
-  top: 200px;
-  left: 135px;
-  color: #000;
-  font-size: 24px;
+.logo {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 35px;
+  &__name {
+    color: #000;
+    font-size: 20px;
+  }
+  &__img {
+    width: 119px;
+    height: auto;
+    margin: 0 auto;
+  }
 }
-.menu__option {
-  border-bottom: 1px dashed black;
-  width: 100%;
-  height: 80px;
-  line-height: 80px;
-  padding-left: 40px;
-  font-size: 20px;
-  color: #333d51;
-  &--active {
-    background-color: #f2f2f2;
+.menu {
+  overflow-y: auto;
+  &__option {
+    border-bottom: 1px dashed black;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 40px;
+    font-size: 20px;
+    color: #333d51;
+    &--active {
+      background-color: #f2f2f2;
+    }
+    &:first-child {
+      border-top: 1px solid #ccc;
+    }
+    a {
+      color: #333d51;
+    }
+    a:hover {
+      color: #d2b48c;
+    }
   }
 }
 
@@ -42,7 +61,3 @@ $font-size: 20px;
 @include margins(left, 161);
 @include margins(bottom, 94);
 @include float(right, 28);
-
-.margin-top-10 {
-  margin-top: 10px;
-}

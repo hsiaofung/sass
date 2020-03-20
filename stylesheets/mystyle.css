@@ -62,3 +62,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-indent: 100%;
   overflow: hidden;
 }
+
+.header h2 a {
+  -moz-border-radius: "50px";
+  -webkit-border-radius: "50px";
+  border-radius: "50px";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+  opacity: 0.2;
+  -moz-box-shadow: "3px 3px 5px #000";
+  -webkit-box-shadow: "3px 3px 5px #000";
+  box-shadow: "3px 3px 5px #000";
+}

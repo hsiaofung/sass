@@ -1,0 +1,31 @@
+$mobile: 767px;
+$pad-min: 768px;
+$pad: 991px;
+$pc: 992px;
+
+@mixin respond-rwd($breakpoint) {
+  @if $breakpoint == mobile {
+    @media all and (max-width: $mobile) {
+      @content;
+    }
+  } @else if $breakpoint == pad {
+    @media all and (min-width: $pad-min) and (max-width: $pad) {
+      @content;
+    }
+  } @else if $breakpoint == pc {
+    @media all and (min-width: $pc) {
+      @content;
+    }
+  }
+}
+
+.one {
+  width: 600px;
+  @include respond-rwd("pc") {
+    width: 300px;
+    height: 50px;
+  }
+  @include respond-rwd("pad") {
+    width: 100%;
+  }
+}
