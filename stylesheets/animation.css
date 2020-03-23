@@ -1,0 +1,10 @@
+.box1 {
+  height: 30px;
+  -moz-transition: all 1s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  -o-transition: all 1s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  -webkit-transition: all 1s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transition: all 1s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.box1:hover {
+  width: 300px;
+}

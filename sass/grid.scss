@@ -1,0 +1,20 @@
+@import "compass/css3";
+$width: 960px;
+
+.wrap {
+  width: $width;
+  margin: 0 auto;
+}
+
+@mixin grid($cloum_number, $cloum_gutter) {
+  width: $width - $cloum_gutter * ($cloum_number - 1) / $cloum_number;
+  margin-right: $cloum_gutter;
+  @include box-sizing("border-box");
+  &:nth-child(#{$cloum_number}n) {
+    margin-right: 0;
+  }
+}
+
+.product li {
+  @include grid(3, 30px);
+}

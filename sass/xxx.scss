@@ -1,0 +1,10 @@
+//新增版型只要增加逗號的值即可。
+$sites: "coffee", "cart", "cloth", "tea", "child"; //網站類型
+$text-color: red, orange, yellow, green, blue; //文字顏色
+$bg: #fff, #000, #000, gray, #fff; //背景顏色
+$style: index($sites, "coffee"); //選擇coffee後，style=1
+
+.box {
+  background: nth($bg, $style);
+  color: nth($text-color, $style);
+}

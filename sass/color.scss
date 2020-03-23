@@ -1,0 +1,7 @@
+.page {
+  background: #ff0000;
+  background: darken(#ff0000, 10%);
+  background: lighten(#ff0000, 10%);
+  background: adjust-hue(#ff0000, 10%);
+  background: invert(#ff0000);
+}

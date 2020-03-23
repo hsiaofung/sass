@@ -1,0 +1,29 @@
+.box {
+  height: 0;
+  width: 0;
+  border-left: 30px solid red;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.one {
+  background: green;
+  height: 300px;
+  width: 300px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  position: relative;
+}
+.one:before {
+  height: 0;
+  width: 0;
+  border-left: 30px solid green;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  content: "";
+  position: absolute;
+  display: block;
+  left: 100%;
+  top: 10%;
+}

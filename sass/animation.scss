@@ -1,0 +1,10 @@
+@import "compass";
+@import "ceaser-easing";
+
+.box1 {
+  height: 30px;
+  @include transition(all 1s ceaser($easeInOutBack));
+  &:hover {
+    width: 300px;
+  }
+}

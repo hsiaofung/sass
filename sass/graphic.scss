@@ -1,0 +1,61 @@
+@import "compass/css3";
+
+@mixin circle($size, $bgcolor) {
+  height: $size;
+  @include border-radius($size);
+  background: $bgcolor;
+}
+
+@mixin triangle($size, $color, $align, $type: 1) {
+  height: 0;
+  width: 0;
+  @if ($align == top) {
+    border-bottom: ($size * $type) solid $color;
+    border-left: ($size/2) solid transparent;
+    border-right: ($size/2) solid transparent;
+  } @else if ($align == right) {
+    border-left: ($size * $type) solid $color;
+    border-top: ($size/2) solid transparent;
+    border-bottom: ($size/2) solid transparent;
+  } @else if ($align == bottom) {
+    border-top: ($size * $type) solid $color;
+    border-left: ($size/2) solid transparent;
+    border-right: ($size/2) solid transparent;
+  } @else if ($align == left) {
+    border-right: ($size * $type) solid $color;
+    border-top: ($size/2) solid transparent;
+    border-bottom: ($size/2) solid transparent;
+  } @else if ($align == "right-top") {
+    border-right: $size solid $color;
+    border-bottom: $size solid transparent;
+  } @else if ($align == "left-top") {
+    border-left: $size solid $color;
+    border-top: $size solid transparent;
+  } @else if ($align == "right-bottom") {
+    border-right: $size solid $color;
+    border-top: $size solid transparent;
+  } @else if ($align == "left-bottom") {
+    border-right: $size solid $color;
+    border-top: $size solid transparent;
+  }
+}
+
+.box {
+  @include triangle(30px, red, right);
+}
+
+.one {
+  background: green;
+  height: 300px;
+  width: 300px;
+  @include border-radius(30px);
+  position: relative;
+  &:before {
+    @include triangle(30px, green, right);
+    content: "";
+    position: absolute;
+    display: block;
+    left: 100%;
+    top: 10%;
+  }
+}
