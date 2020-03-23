@@ -1,0 +1,5 @@
+$icon-spacing: 20px;
+$icon-layout: horizontal;
+
+@import "../images/icon/*.png";
+@include all-icon-sprites;

@@ -1,0 +1,26 @@
+$grid-number: 12;
+$box-bg: blue, red, pink, orange;
+$box-len: length($box-bg);
+
+@for $i from 1 through 3 {
+  .font-#{$i} {
+    font-size: 2em * $i;
+  }
+}
+
+@for $i from 1 through $grid-number {
+  .grid-#{$i} {
+    width: $i * 80px;
+  }
+}
+
+.color-total {
+  color: $box-len;
+}
+
+@for $i from 1 through $box-len {
+  .#{nth($box-bg, $i)} {
+    color: nth($box-bg, $i);
+    background: invert(nth($box-bg, $i));
+  }
+}

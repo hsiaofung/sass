@@ -1,0 +1,83 @@
+.font-1 {
+  font-size: 2em;
+}
+
+.font-2 {
+  font-size: 4em;
+}
+
+.font-3 {
+  font-size: 6em;
+}
+
+.grid-1 {
+  width: 80px;
+}
+
+.grid-2 {
+  width: 160px;
+}
+
+.grid-3 {
+  width: 240px;
+}
+
+.grid-4 {
+  width: 320px;
+}
+
+.grid-5 {
+  width: 400px;
+}
+
+.grid-6 {
+  width: 480px;
+}
+
+.grid-7 {
+  width: 560px;
+}
+
+.grid-8 {
+  width: 640px;
+}
+
+.grid-9 {
+  width: 720px;
+}
+
+.grid-10 {
+  width: 800px;
+}
+
+.grid-11 {
+  width: 880px;
+}
+
+.grid-12 {
+  width: 960px;
+}
+
+.color-total {
+  color: 4;
+}
+
+.blue {
+  color: blue;
+  background: yellow;
+}
+
+.red {
+  color: red;
+  background: cyan;
+}
+
+.pink {
+  color: pink;
+  background: #003f34;
+}
+
+.orange {
+  color: orange;
+  background: #005aff;
+}

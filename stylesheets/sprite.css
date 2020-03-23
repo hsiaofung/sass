@@ -1,0 +1,16 @@
+.icon-sprite, .icon-close, .icon-icon-info-2, .icon-logo {
+  background-image: url('/images/../images/icon-s8458815810.png');
+  background-repeat: no-repeat;
+}
+
+.icon-close {
+  background-position: 0 0;
+}
+
+.icon-icon-info-2 {
+  background-position: -308px 0;
+}
+
+.icon-logo {
+  background-position: -388px 0;
+}
