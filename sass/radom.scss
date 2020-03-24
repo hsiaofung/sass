@@ -1,0 +1,31 @@
+@import "compass";
+@import "ceaser-easing";
+$boxes: 100;
+
+.box {
+  height: 1000px;
+  width: 1000px;
+  position: relative;
+  @include transition(all, 1s);
+  &:hover div {
+    margin-left: 2000px;
+  }
+}
+
+@for $i from 1 through $boxes {
+  .for-#{$i} {
+    color: #000;
+    height: 50px;
+    width: 50px;
+    @include box-shadow(5px 5px #000);
+    background: rgb(random(255), random(255), random(255));
+    @include border-radius(50px);
+    position: absolute;
+    left: random(1000) - 100 + px;
+    bottom: random(1000) - 100 + px;
+    @include transition(
+      all 3s
+        cubic-bezier(#{random(1)}, #{random(1)}, #{random(1)}, #{random(1)})
+    );
+  }
+}

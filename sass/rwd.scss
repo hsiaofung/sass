@@ -29,3 +29,22 @@ $pc: 992px;
     width: 100%;
   }
 }
+
+$breakpoints: (
+  sm: 768px,
+  md: 992px,
+  lg: 1200px
+);
+
+@mixin respond-to($breakpoint, $breakpoints: $breakpoints) {
+  @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+    @content;
+  }
+}
+
+html {
+  background-color: lime;
+  @include respond-to("sm") {
+    background-color: aqua;
+  }
+}

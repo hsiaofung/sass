@@ -1,0 +1,2012 @@
+.box {
+  height: 1000px;
+  width: 1000px;
+  position: relative;
+  -moz-transition: all, 1s;
+  -o-transition: all, 1s;
+  -webkit-transition: all, 1s;
+  transition: all, 1s;
+}
+.box:hover div {
+  margin-left: 2000px;
+}
+
+.for-1 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #7d6bc1;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: -23px;
+  bottom: 500px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-2 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #051bcf;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 446px;
+  bottom: 75px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-3 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #cf8c7a;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 234px;
+  bottom: 622px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-4 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #46e702;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 748px;
+  bottom: 486px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-5 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #62746d;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 89px;
+  bottom: 425px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-6 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #28a8bd;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: -55px;
+  bottom: 272px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-7 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #0a9bf6;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 837px;
+  bottom: 698px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-8 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #59e8d3;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 203px;
+  bottom: 68px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-9 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #cd2edb;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 700px;
+  bottom: 72px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-10 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #afade7;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 73px;
+  bottom: 170px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-11 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #01069f;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 261px;
+  bottom: 761px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-12 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #a3d98a;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 185px;
+  bottom: 177px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-13 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #b9c90f;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 753px;
+  bottom: 890px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-14 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #ca8327;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 22px;
+  bottom: 385px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-15 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #1bcde5;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 863px;
+  bottom: 335px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-16 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #e91af3;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: -74px;
+  bottom: 893px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-17 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #f90781;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 565px;
+  bottom: 748px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-18 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #f89bab;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: -16px;
+  bottom: 288px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-19 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #b30c3d;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 601px;
+  bottom: 4px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-20 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #f0f52f;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 143px;
+  bottom: 86px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-21 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #a997cb;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 528px;
+  bottom: 701px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-22 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #f8db6e;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 664px;
+  bottom: 701px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-23 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #2a358a;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 5px;
+  bottom: -3px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-24 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #7bede7;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 439px;
+  bottom: 852px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-25 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #9b2466;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 809px;
+  bottom: 223px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-26 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #e91b91;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 72px;
+  bottom: 681px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-27 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #5d7b86;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 410px;
+  bottom: 362px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-28 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #4b09c8;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 585px;
+  bottom: -68px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-29 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #705fb1;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 754px;
+  bottom: 632px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-30 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #02eda0;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 466px;
+  bottom: 824px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-31 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #733083;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 738px;
+  bottom: -19px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-32 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #7b3fa4;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 242px;
+  bottom: 9px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-33 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #12072d;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 672px;
+  bottom: 178px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-34 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #3238d9;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 787px;
+  bottom: 413px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-35 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #5cccaa;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 417px;
+  bottom: 757px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-36 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #a56044;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 383px;
+  bottom: 819px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-37 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #253757;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 447px;
+  bottom: 254px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-38 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #f95674;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 404px;
+  bottom: 431px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-39 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #0f50a8;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 690px;
+  bottom: -85px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-40 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #313d3d;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 373px;
+  bottom: 376px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-41 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #b8bb03;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 272px;
+  bottom: -45px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-42 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #801aaa;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 276px;
+  bottom: 511px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-43 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #022da9;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 682px;
+  bottom: -70px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-44 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #01e55c;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 485px;
+  bottom: 759px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-45 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #9ad819;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 853px;
+  bottom: 802px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-46 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #02db59;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 761px;
+  bottom: 281px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-47 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #411150;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 99px;
+  bottom: 684px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-48 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #ecff76;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 429px;
+  bottom: 108px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-49 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #b36bc6;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 726px;
+  bottom: 587px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-50 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #c6e3fa;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 313px;
+  bottom: 520px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-51 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #31809d;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 790px;
+  bottom: 56px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-52 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #34a0e0;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 3px;
+  bottom: 273px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-53 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #45a0a3;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 50px;
+  bottom: 816px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-54 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #687979;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 150px;
+  bottom: 722px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-55 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #61079e;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 837px;
+  bottom: 604px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-56 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #6e1449;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 635px;
+  bottom: 645px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-57 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #65e7f9;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 590px;
+  bottom: 578px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-58 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #67e111;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: -62px;
+  bottom: 659px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-59 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #6756bf;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 83px;
+  bottom: -81px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-60 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #8ae531;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 116px;
+  bottom: 778px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-61 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #a734b0;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 140px;
+  bottom: 383px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-62 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #8530b5;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 482px;
+  bottom: 607px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-63 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #07ac55;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 21px;
+  bottom: 500px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-64 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #55de2a;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 549px;
+  bottom: 541px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-65 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #14f5e5;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 97px;
+  bottom: 882px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-66 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #6a3c6a;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 23px;
+  bottom: 469px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-67 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #75e665;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 712px;
+  bottom: 105px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-68 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #f525a9;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 542px;
+  bottom: -3px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-69 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #0f04ca;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: -43px;
+  bottom: 830px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-70 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #bdac25;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 391px;
+  bottom: 507px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-71 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #4a4a5e;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 788px;
+  bottom: 125px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-72 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #d601e6;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 792px;
+  bottom: 58px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-73 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #f2f0c4;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: -8px;
+  bottom: 274px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-74 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #604daa;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 773px;
+  bottom: 873px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-75 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #a338c4;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 439px;
+  bottom: 451px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-76 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #d5e998;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 898px;
+  bottom: 315px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-77 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #6be647;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 141px;
+  bottom: -89px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-78 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #6f2054;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 305px;
+  bottom: 841px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-79 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #bf100c;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 341px;
+  bottom: 276px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-80 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #da4ed8;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 545px;
+  bottom: 380px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-81 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #adffd8;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 1px;
+  bottom: -85px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-82 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #ccf1f6;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 687px;
+  bottom: 751px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-83 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #6396c4;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 190px;
+  bottom: 66px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-84 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #3fead5;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 702px;
+  bottom: 489px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-85 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #9fb922;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 394px;
+  bottom: 789px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-86 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #35ed26;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 75px;
+  bottom: 412px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-87 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #30f566;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 888px;
+  bottom: 799px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-88 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #d7e353;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 94px;
+  bottom: 742px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-89 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #359f15;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 229px;
+  bottom: 539px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-90 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #570a1b;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 759px;
+  bottom: 390px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-91 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #9c35aa;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 307px;
+  bottom: 338px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-92 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #5f231a;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 659px;
+  bottom: 781px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-93 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #0c91b6;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 511px;
+  bottom: -83px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-94 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #e254e1;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 87px;
+  bottom: 324px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-95 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #71bb71;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 820px;
+  bottom: 851px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-96 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #538e36;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 344px;
+  bottom: 294px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-97 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #91b2da;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 278px;
+  bottom: 67px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-98 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #c17c1b;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 392px;
+  bottom: 271px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-99 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #c8777f;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 400px;
+  bottom: 416px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}
+
+.for-100 {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  -moz-box-shadow: 5px 5px #000;
+  -webkit-box-shadow: 5px 5px #000;
+  box-shadow: 5px 5px #000;
+  background: #6c703c;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 532px;
+  bottom: 509px;
+  -moz-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -o-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  -webkit-transition: all 3s cubic-bezier(1, 1, 1, 1);
+  transition: all 3s cubic-bezier(1, 1, 1, 1);
+}

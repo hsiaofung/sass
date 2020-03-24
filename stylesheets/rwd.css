@@ -12,3 +12,12 @@
     width: 100%;
   }
 }
+
+html {
+  background-color: lime;
+}
+@media (min-width: 768px) {
+  html {
+    background-color: aqua;
+  }
+}
